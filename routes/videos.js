@@ -33,7 +33,7 @@ router.get("/:videoId", (req, res) => {
   const requestedVideo = videos.filter(
     (video) => video.id === req.params.videoId
   );
-  res.status(200).json(requestedVideo);
+  res.status(200).json(requestedVideo[0]);
 });
 
 const writeToJsonFile = (filename, content) => {
