@@ -274,31 +274,5 @@
       }
     ],
     "id": "76ca28c0-7dea-4553-887f-8e5129a80fc3"
-  },
-  {
-    "title": "new title",
-    "channel": "BrainStation",
-    "image": "https://i.imgur.com/l2Xfgpl.jpg",
-    "description": "here is my new video",
-    "views": 1001,
-    "likes": 2002,
-    "duration": "3:59",
-    "video": "https://project-2-api.herokuapp.com/stream",
-    "timestamp": 1657799727725,
-    "comments": [],
-    "id": "37450511-d41d-4bcd-a945-fcabca06cf9f"
-  },
-  {
-    "title": "new title",
-    "channel": "BrainStation",
-    "image": "https://i.imgur.com/l2Xfgpl.jpg",
-    "description": "here is my new video",
-    "views": 1001,
-    "likes": 2002,
-    "duration": "3:59",
-    "video": "https://project-2-api.herokuapp.com/stream",
-    "timestamp": 1657799730939,
-    "comments": [],
-    "id": "0e8f24b8-a140-4a18-b6b2-6841d75c506b"
   }
 ]

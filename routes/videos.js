@@ -63,7 +63,20 @@ router.post("/", (req, res) => {
     duration: "3:59",
     video: "https://project-2-api.herokuapp.com/stream",
     timestamp: Date.now(),
-    comments: [],
+    comments: [
+      {
+        name: "Tanaka",
+        comment: "Good submission but it could use some work.",
+        likes: 50,
+        timestamp: Date.now(),
+      },
+      {
+        name: "Sammy",
+        comment: "Good submission but it could use some work.",
+        likes: 0,
+        timestamp: Date.now(),
+      },
+    ],
     id: uuidv4(),
   };
 
